@@ -137,7 +137,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='mt-10 flex items-center justify-center  border-t-[1.5px] border-gray-600/50 py-5'>
-        <p>&copy;Lorem ipsum dolor sit.</p>
+        <p className='text-lg'>&copy;2023 Все права защищены.</p>
       </div>
     </footer>
   )
