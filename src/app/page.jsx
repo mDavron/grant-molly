@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -23,7 +22,7 @@ const AboutPage = () => {
               href={'/'}
               className='rounded-md bg-red-500/80 px-5 py-3 text-base font-semibold uppercase text-white transition hover:bg-red-500 md:px-8 md:py-4 md:text-lg'
             >
-              lorem ipsum
+              КАТАЛОГ МАСЛА
             </Link>
           </div>
         </div>
