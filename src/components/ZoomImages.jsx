@@ -16,6 +16,8 @@ const ZoomImages = ({ images }) => {
                 width={400}
                 height={500}
                 className='object-cover'
+                // objectPosition='50% 50%'
+                alt=''
               />
             </Zoom>
           </div>

@@ -8,15 +8,15 @@ export const metadata = {
 const ContactsPage = () => {
   return (
     <section>
-      <div className='relative h-[60vh] w-full'>
+      <div className='relative h-[60vh] w-full bg-fixed'>
         <Image
           src='/images/pexels-1.jpg'
           fill
-          className='absolute bg-center object-cover'
+          className='absolute bg-fixed bg-center object-cover'
           alt=''
           priority
         />
-        <div className='absolute left-0 top-0 h-full w-full bg-gray-800/30' />
+        <div className='absolute left-0 top-0 h-full w-full bg-gray-800/30'></div>
       </div>
     </section>
   )
