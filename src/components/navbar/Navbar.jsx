@@ -8,7 +8,7 @@ import Logo from '../Logo'
 
 const navitems = [
   { id: 1, url: '/', label: 'Главная' },
-  { id: 2, url: '/category', label: 'Каталог' },
+  // { id: 2, url: '/category', label: 'Каталог' },
   { id: 4, url: '/sertificates', label: 'Сертификаты' },
   { id: 3, url: '/contacts', label: 'Контакты' }
 ]
