@@ -98,7 +98,7 @@ const Footer = () => {
                 @Grant_molly
               </Link>
             </li>
-            <li className='group flex items-center gap-2'>
+            {/* <li className='group flex items-center gap-2'>
               <svg
                 className='h-5 w-5 transition-all group-hover:scale-110'
                 xmlns='http://www.w3.org/2000/svg'
@@ -116,7 +116,7 @@ const Footer = () => {
               <Link href={'mailto:'} target='_blank'>
                 example@com
               </Link>
-            </li>
+            </li> */}
           </ul>
           <ul className='space-y-4'>
             {navitems.map(link => {
