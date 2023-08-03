@@ -22,7 +22,7 @@ const Banner = () => {
               </span>
               для автомобилей
             </h1>
-            <p className='mb-10 mt-6  flex items-center  gap-4 text-lg font-semibold text-yellow-500 lg:w-1/2 lg:text-xl'>
+            <p className='mb-10 mt-6  flex items-center gap-3 text-lg font-semibold text-yellow-500 lg:w-1/2 lg:text-xl'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
