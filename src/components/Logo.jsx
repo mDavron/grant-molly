@@ -1,18 +1,13 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export const Logo = ({ navBg, isHome }) => {
+function Logo() {
   return (
-    <div>
-      <Link href={'/'} className='inline-flex items-center gap-1 text-inherit'>
-        <span
-          className={`${navBg ? 'text-gray-800' : 'text-gray-50'} ${
-            !isHome && 'text-gray-800'
-          } font-semibold uppercase `}
-        >
-          Grant Molly
-        </span>
-      </Link>
-    </div>
+    <Link href='/'>
+      <Image src={'/images/logo.png'} width={150} height={50} />
+    </Link>
   )
 }
+
+export default Logo

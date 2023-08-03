@@ -1,12 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import banner from '../../../public/images/baner4.jpg'
 
 const Banner = () => {
   return (
     <section>
       <div className='relative flex min-h-screen w-full justify-center'>
-        <Image src={'/images/baner4.jpg'} className='absolute' fill priority />
+        <Image
+          src={banner}
+          className='absolute bg-cover'
+          fill
+          priority
+          placeholder='blur'
+        />
         <div className='absolute left-0 top-0  h-full w-full bg-gray-800/70'>
           <div className='container mx-auto mt-[150px] lg:mt-[250px]'>
             <h1 className='text-2xl font-semibold uppercase text-white lg:text-6xl '>

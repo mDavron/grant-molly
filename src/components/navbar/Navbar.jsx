@@ -3,7 +3,7 @@ import React from 'react'
 import { Navigation } from './Navigation'
 import { usePathname } from 'next/navigation'
 import MobileMenu from './mobileNavbar'
-import { Logo } from '../Logo'
+import Logo from '../Logo'
 // import Link from 'next/link'
 
 const navitems = [
@@ -37,7 +37,7 @@ const Navbar = () => {
     >
       <div className='container mx-auto w-full'>
         <div className='flex h-[80px] items-center justify-between'>
-          <Logo navBg={navBg} isHome={isHome} />
+          <Logo />
           <div className='flex items-center gap-4'>
             <Navigation navLinks={navitems} />
             <MobileMenu navLinks={navitems} />
