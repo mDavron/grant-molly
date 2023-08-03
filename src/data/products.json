@@ -1,7 +1,32 @@
 [
   {
-    "name": "Mening oil, sifatiga qoil",
-    "description": "Oil desc",
-    "image": "/images/maslo.jpeg"
+    "name": "Super 15w-40",
+    "description": "Lorem ipsum dolor amet, consectetur adipisicing elit.",
+    "image": "/images/photo_1.jpg"
+  },
+  {
+    "name": "Shu rasmni almashtirish kerak",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "image": "/images/photo_2.jpg"
+  },
+  {
+    "name": "Diesel 15w-40",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "image": "/images/photo_3.jpg"
+  },
+  {
+    "name": "Diesel 15w-40",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "image": "/images/photo_4.jpg"
+  }
+  ,{
+    "name": "Diesel 15w-40",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "image": "/images/photo_5.jpg"
+  },
+  {
+    "name": "Diesel 15w-40",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "image": "/images/photo_6.jpg"
   }
 ]

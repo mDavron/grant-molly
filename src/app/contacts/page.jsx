@@ -12,7 +12,7 @@ const ContactsPage = () => {
         <Image
           src='/images/pexels-1.jpg'
           fill
-          className='absolute bg-fixed bg-center object-cover'
+          className='absolute bg-center object-cover'
           alt=''
           priority
         />

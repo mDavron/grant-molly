@@ -5,17 +5,17 @@ import products from '../../data/products.json'
 
 const ProductCard = ({ product }) => {
   return (
-    <div className='flex min-h-[450px] w-full flex-col justify-center overflow-hidden rounded-sm p-4 shadow-md'>
-      <div className='relative h-[75%] flex-1'>
+    <div className='flex min-h-[450px] w-full flex-col justify-center overflow-hidden rounded-sm shadow-md'>
+      <div className='relative h-[75%] w-full flex-1'>
         <Image
           src={product.image}
           alt={product.name}
           fill
-          priority
-          className='absolute object-cover'
+          // priority
+          className='absolute object-contain'
         />
       </div>
-      <div className='mt-2 min-h-[25%] bg-white'>
+      <div className='mt-2 min-h-[25%] bg-white px-4'>
         <p className='mb-3 text-lg font-medium'>{product.name}</p>
         <Link
           href={'/'}

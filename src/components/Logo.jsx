@@ -5,7 +5,12 @@ import React from 'react'
 function Logo() {
   return (
     <Link href='/'>
-      <Image src={'/images/logo.png'} width={150} height={50} />
+      <Image
+        src={'/images/logo.png'}
+        width={150}
+        height={50}
+        className=' h-10 w-24 md:h-12 md:w-40'
+      />
     </Link>
   )
 }
