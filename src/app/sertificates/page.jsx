@@ -13,7 +13,7 @@ export const images = [
 ]
 const SertificatesPage = () => {
   return (
-    <section className='pt-[150px]'>
+    <section className='pb-10 pt-[150px]'>
       <div className='container mx-auto'>
         <h1 className='mb-5 text-center text-2xl font-bold uppercase text-gray-800 lg:mb-10 lg:text-4xl'>
           СЕРТИФИКАТЫ
