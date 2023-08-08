@@ -6,13 +6,14 @@ import banner from '../../../public/images/baner4.jpg'
 const Banner = () => {
   return (
     <section>
-      <div className='relative flex min-h-[500px] w-full justify-center md:h-[600px] lg:h-screen'>
+      <div className='relative flex h-[500px] w-full justify-center md:h-[600px] lg:h-screen'>
         <Image
           src={banner}
           className='absolute bg-cover'
           fill
           priority
           placeholder='blur'
+          alt='banner'
         />
         <div className='absolute left-0 top-0  h-full w-full bg-gray-800/70'>
           <div className='container mx-auto mt-[150px] lg:mt-[250px]'>
