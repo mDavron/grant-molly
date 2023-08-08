@@ -6,7 +6,7 @@ import banner from '../../../public/images/baner4.jpg'
 const Banner = () => {
   return (
     <section>
-      <div className='relative flex min-h-screen w-full justify-center'>
+      <div className='relative flex min-h-[500px] w-full justify-center md:h-[600px] lg:h-screen'>
         <Image
           src={banner}
           className='absolute bg-cover'

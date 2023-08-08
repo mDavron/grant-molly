@@ -6,10 +6,10 @@ export const metadata = {
 }
 
 export const images = [
-  { url: '/images/sert2.png' },
-  { url: '/images/sert2.png' },
-  { url: '/images/sert2.png' },
-  { url: '/images/sert2.png' }
+  { url: '/images/sert-1.png' },
+  { url: '/images/sert-2.png' },
+  { url: '/images/sert-3.png' },
+  { url: '/images/sert-4.png' }
 ]
 const SertificatesPage = () => {
   return (
