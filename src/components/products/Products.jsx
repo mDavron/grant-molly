@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
           alt={product.name}
           fill
           // priority
-          className='absolute object-contain'
+          className='absolute flex-1 object-contain'
         />
       </div>
       <div className='mt-2 min-h-[25%] bg-white px-4'>
@@ -45,7 +45,7 @@ const Products = () => {
   return (
     <section className='py-[80px]'>
       <div className='container mx-auto'>
-        <div className='grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
+        <div className='grid w-full grid-cols-1  gap-8 md:grid-cols-2 lg:grid-cols-4'>
           {products.map(p => (
             <ProductCard product={p} />
           ))}

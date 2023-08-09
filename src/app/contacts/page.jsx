@@ -18,6 +18,9 @@ const ContactsPage = () => {
         />
         <div className='absolute left-0 top-0 h-full w-full bg-gray-800/30'></div>
       </div>
+      <div className='mt-5'>
+        <h1 className='text-center text-5xl text-gray-900'>Наши контакты</h1>
+      </div>
     </section>
   )
 }
